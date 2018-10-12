@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="api_key">8fa181c4b2a9954e72b87a094cca35d6</string>
+    <string name="select_city_id">Select City</string>
+    <string name="units">metric</string>
+    <string name="confirmation_hint_confirm_title">Confirm title</string>
+    <string name="confirmation_hint_confirm_description">Confirmation description</string>
+    <string name="confirmation_cancel_button_text">Cancel</string>
+    <string name="confirmation_confirm_button_text">Confirm</string>
+    <string name="msg_error_code">Error code: </string>
+    <string name="msg_turn_on_network">Please turn on network connection to continue</string>
+    <string name="text_settings">Settings</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_ok">Ok</string>
+    <string name="no_network_title">No Network Connectivity</string>
+    <string name="city_code">CityCode</string>
+    <string name="city_name">CityName</string>
+    <string name="list">List</string>
+
+</resources>

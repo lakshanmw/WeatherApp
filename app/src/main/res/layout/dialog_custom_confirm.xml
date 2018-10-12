@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/dialog_custom_confirm_tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/confirmation_hint_confirm_title"
+        android:textColor="@color/colorTextColor" />
+
+    <TextView
+        android:id="@+id/dialog_custom_confirm_tv_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/confirmation_hint_confirm_description"
+        android:textColor="@color/colorTextColor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/dialog_custom_confirm_btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/confirmation_cancel_button_text"
+            android:textAllCaps="false"
+            android:textColor="@color/color_primary" />
+
+        <Button
+            android:id="@+id/dialog_custom_confirm_btn_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="@string/confirmation_confirm_button_text"
+            android:textAllCaps="false"
+            android:textColor="@color/color_primary" />
+    </LinearLayout>
+</LinearLayout>
